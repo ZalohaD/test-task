@@ -1,3 +1,5 @@
+
+
 /*!
 Theme Name: Pediatrie suisse
 Theme URI: http://underscores.me/
@@ -21,8 +23,18 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,100;1,200;1,600;1,700;1,800&display=swap');
+
+:root{
+	--gray-main: #323232;
+	--secondary-gray: #606060;
+	--cyan-span-color: #28B7CA;
+	--dark-gray: #202020;
+	--white: #ffff;
+	--black: #000000;
+}
+
+
 *{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -31,6 +43,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 .site-main{
 	margin: 0 50px 0 50px;
+}
+
+.site-header{
+	margin: 37px 101px 25px 50px;
 }
 .background-wrapper{
 	display: flex;
@@ -65,18 +81,18 @@ img.background-img {
 }
 
 span.blue-color{
-	color: #28B7CA;
+	color: var(--cyan-span-color);
 }
 
 .heading{
 	font-size: 64px !important;
 	font-weight: 900 !important;
-	color: #323232;
+	color: var(--gray-main);
 	margin: 20px;
 }
 
 .bottom-text{
-	color: #606060;
+	color: var(--secondary-gray);
 	width: 500px;
 	text-align: center;
 	font-weight: 400;
@@ -87,14 +103,14 @@ span.blue-color{
 .main-button{
 	width: 250px;
 	height: 50px;
-	background: #323232;
+	background:var(--gray-main);
 	border: transparent;
 	font-weight: 700;
 }
 
 .button-text{
 	text-decoration: none;
-	color: #FFFFFF;
+	color: var(--white);
 	text-transform: uppercase;
 }
 
@@ -171,10 +187,6 @@ span.blue-color{
 	display: flex;
 }
 
-.site-branding{
-	margin: 37px 101px 25px 50px;
-}
-
 .main-navigation{
 	display: flex;
 	flex-basis: 1500px;
@@ -200,19 +212,20 @@ li.menu-item a{
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 28px;
-	color: #323232;
+	color: var(--gray-main);
 }
 
 .register-button{
 	text-transform: uppercase;
-	color: #323232;
+	color: var(--gray-main);
 	width: 250px;
 	height: 50px;
 	border-radius: 1px;
-	border-color: #000000;
+	border-color: var(--gray-main);
 	background: transparent;
 	font-weight: 700;
 }
+
 
 .whitespace{
 	width: 100%;
@@ -238,7 +251,11 @@ li.menu-item a{
 }
 
 .main-text{
-	line-height: 25.2px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
 	margin-top: 30px;
 }
 
@@ -264,27 +281,13 @@ button.learn-more::before{
 
 .button-link{
 	text-decoration: none;
-	color: #000000;
+	color: var(--black);
 	text-transform: uppercase;
 }
 
 /* Mobile\Tablet versions */
 
 @media screen and (max-width: 768px) {
-	.menu-toggle{
-		border: 0;
-		background: transparent;
-	}
-
-	.menu-toggle::after{
-		content: '';
-		display: block;
-		background-image: url("./inc/img/hamburger.svg");
-		width: 30px;
-		height: 22px;
-		margin-right: 20px;
-	}
-
 	.site-branding{
 		align-items: center;
 		margin: 20px 0 29px 20px;

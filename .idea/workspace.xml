@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef85898e-db43-4a1d-bf8b-4ac614ddf6f6" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/members-display/templates/single-speakers_display.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/members-display/templates/single-speakers_display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/template-parts/content-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,19 +86,12 @@
       <workItem from="1661120777747" duration="5159000" />
       <workItem from="1661171770936" duration="17499000" />
       <workItem from="1661209529237" duration="508000" />
+      <workItem from="1661450910338" duration="5171000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/cart.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/contexts.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/hooks.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/types/type-defs/shipping.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
