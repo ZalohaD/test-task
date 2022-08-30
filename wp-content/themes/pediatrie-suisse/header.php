@@ -58,7 +58,7 @@
 			);
 			?>
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="true"><?php esc_html_e( '', 'pediatrie-suisse' ); ?></button>
-<!--            <button class="register-button">--><?php //_e( 'register'); ?><!--</button>-->
+            <button class="register-button"><?php _e( 'register'); ?></button>
 
         </nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

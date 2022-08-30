@@ -34,7 +34,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--black: #000000;
 }
 
-
 *{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -61,8 +60,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	height: 789px;
 }
 
-img.background-img {
+.background-img {
 	position: absolute;
+	background: url("./inc/img/background.png") bottom;
+	background-size: cover;
 	width: 100%;
 	height: 791px;
 	left: 0px;
@@ -189,7 +190,7 @@ span.blue-color{
 
 .main-navigation{
 	display: flex;
-	flex-basis: 1500px;
+	flex-basis: 100%;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -256,10 +257,10 @@ li.menu-item a{
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
-	margin-top: 30px;
+	margin: 30px 0 51px 0;
 }
 
-button.learn-more::before{
+button.arrow-btn::before{
 	content: '';
 	display: block;
 	background-image: url("./inc/img/arrow.svg");
@@ -267,8 +268,7 @@ button.learn-more::before{
 	height: 36px;
 }
 
-.learn-more{
-	margin-top: 51px;
+.arrow-btn{
 	border: 0px;
 	background: transparent;
 	display: flex;
@@ -285,16 +285,51 @@ button.learn-more::before{
 	text-transform: uppercase;
 }
 
+.site-footer{
+	margin: 20px 50px 0 50px;
+	background: linear-gradient(90deg, #E6E9F0 0%, #EEF1F5 100%);
+}
+
+.site-info{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.footer-menu-wrapper{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-menu{
+	list-style: none;
+	display: flex;
+	gap: 50px;
+}
+
+.brand-logo{
+	text-align: center;
+	padding: 115px 0 62px 0;
+}
+
+
+
+
+
+
 /* Mobile\Tablet versions */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 719px ) {
 	.site-branding{
 		align-items: center;
 		margin: 20px 0 29px 20px;
 		width: 98px;
 		height: 46px;
 	}
-
+	.site-header{
+		margin: 0 20px 0 0px;
+	}
 	.main-navigation{
 		justify-content: flex-end;
 		align-content: center;
@@ -305,17 +340,28 @@ button.learn-more::before{
 	}
 
 	.background-wrapper{
-		align-items: flex-start;
+		display: block;
 		margin: 0 20px 0 20px;
+	}
+
+	.heading{
+		font-size: 48px !important;
+		line-height: 67.2px;
+		margin: 0 0 20px 0;
+	}
+
+	.top-text{
+		margin: 20px 0 20px 0;
 	}
 
 	.bottom-text{
 		margin-bottom: 30px;
 		text-align: left;
+		width: 313px;
 	}
 
 	.main-button{
-		width: 335px;
+		width: 100%;
 	}
 
 	.whitespace{
@@ -328,6 +374,15 @@ button.learn-more::before{
 
 	.menu-toggle{
 		display: block;
+		border: none;
+		background: transparent;
+	}
+	.menu-toggle:before{
+		content: '';
+		display: block;
+		background: url("./inc/img/hamburger.svg");
+		width: 30px;
+		height: 22px;
 	}
 
 	.menu-menu-1-container, .register-button{
@@ -336,7 +391,7 @@ button.learn-more::before{
 
 	.doctor-img{
 		width: 335px;
-		height: 200px;
+		height: 300px;
 	}
 
 	.main-wrapper{
@@ -353,8 +408,107 @@ button.learn-more::before{
 		margin-top: 25px;
 	}
 
-	button.learn-more{
-		margin-top: 40px;
+	button.arrow-btn{
+		margin-top: 50px;
 		padding: 0;
 	}
+
+	.site-footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0 0 0;
+	}
+	.site-info{
+		flex-direction: column !important;
+	}
+	.footer-menu{
+		gap: 15px;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+		padding: 0;
+	}
+
+}
+
+@media screen and (min-width: 720px ) and (max-width: 1100px ) {
+	.site-main{
+		margin: 0;
+	}
+	.site-header{
+		margin: 30px 20px 30px 20px;
+	}
+	.menu-menu-1-container, .register-button{
+		display: none;
+	}
+	.main-navigation{
+		justify-content: end;
+	}
+	.menu-toggle{
+		display: block;
+		border: none;
+		background: transparent;
+	}
+	.menu-toggle:before{
+		content: '';
+		display: block;
+		background: url("./inc/img/hamburger.svg");
+		width: 30px;
+		height: 22px;
+	}
+	.background-wrapper{
+		display: flex;
+	}
+	.heading{
+		text-align: center;
+	}
+	.whitespace{
+		height: 50px;
+	}
+
+	.main-wrapper{
+		flex-direction: row;
+		margin: 0 20px 0 20px;
+	}
+	.doctor-img{
+		width: 335px;
+		height: 300px;
+	}
+
+	.main-wrapper{
+		flex-direction: row;
+		width: auto;
+	}
+
+	.main-subwrapper{
+		width: auto;
+		margin-left: 20px;
+	}
+
+	button.arrow-btn{
+		margin-top: 50px;
+		padding: 0;
+	}
+	.site-footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0 0 0;
+	}
+	.site-info{
+		flex-direction: column !important;
+	}
+
+	.footer-menu-wrapper{
+		margin-top: 30px;
+	}
+	.footer-menu{
+		gap: 15px;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+		padding: 0;
+	}
+
 }

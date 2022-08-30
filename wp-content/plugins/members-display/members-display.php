@@ -56,14 +56,14 @@ class Members_Display {
 
     }
 
-    function members_display( $term_id = false ) {
+    function members_display ( $term_id = false ) {
         $args = array(
             'post_type' => 'speakers_display',
             'numberposts' => -1
         );
 
         if ( $term_id ) {
-            $args['tax_query'] = array(
+            $args[ 'tax_query' ] = array(
                 array(
                     'taxonomy' => 'speakers_position_country',
                     'field' => 'term_id',

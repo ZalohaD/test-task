@@ -2,9 +2,211 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef85898e-db43-4a1d-bf8b-4ac614ddf6f6" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/inc/img/background-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/inc/img/footer-brand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/inc/img/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/members-display/members-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/members-display/members-display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/responsive-menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/review-banner-class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.distignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/build/css/rmpMain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/build/js/rmpMain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/build/js/rmpMain.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/Product Sans Bold Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/Product Sans Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/Product Sans Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/Product Sans Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/Product Sans Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/fonts/product-sans/google-product-sans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/export.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/advanced.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/container.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/dropdowns.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/general.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/image-placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/icons/svg/toggle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-elementor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-icon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-menu-wizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/rmp-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/selectize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/js/wp-color-alpha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/rmp-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/scss/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/scss/dark-mode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/scss/glyphicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/scss/selectize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/admin/scss/wizard-ui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/images/default-theme-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/images/giphy.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/images/no-preview.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/images/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/images/rmp-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/scss/common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/assets/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-assets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-control-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-editor-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-editor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-option-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-preview.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-rmp-menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-rmp-migration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-style-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-theme-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-ui-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/class-walker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/elementor/class-elementor-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/classes/elementor/widgets/class-rmp-widget.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/helpers/autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/helpers/custom-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/helpers/default-options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/inc/traits/trait-singleton.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/languages/responsive-menu.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/bin/pscss.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/InstalledVersions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/installed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/composer/platform_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/bin/pscss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/phpcs.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/scss.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Base/Range.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/AtRootBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/CallableBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/ContentBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/DirectiveBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/EachBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/ElseBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/ElseifBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/ForBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/IfBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/MediaBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/NestedPropertyBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Block/WhileBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Colors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/CompilationResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Compiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Compiler/CachedResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Compiler/Environment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/CompilerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/ParserException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/RangeException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/SassException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/SassScriptException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Exception/ServerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Compact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Compressed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Crunched.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Expanded.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/Nested.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Formatter/OutputBlock.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Logger/LoggerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Logger/QuietLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Logger/StreamLogger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Node/Number.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/OutputStyle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/SourceMap/Base64.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/SourceMap/Base64VLQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/SourceMap/SourceMapGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Util/Path.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/ValueConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Version.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/libs/scssphp/vendor/scssphp/scssphp/src/Warn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/admin-notices.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/menu-elements/additional-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/menu-elements/menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/menu-elements/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/menu-elements/title.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/new-menu-wizard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/rmp-editor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/rmp-roadmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/rmp-settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/rmp-themes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/templates/rmp-wizards.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/blue-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/electric-blue-theme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/electric blue theme/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/full-width-theme/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/full-width-theme/full-width-theme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/full-width-theme/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/full-width-theme/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/full-width-theme/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/simple-red-free/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/simple-red-free/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/simple-red-free/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/simple-red-free/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/themes/simple-red-free/simple-red-theme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/uninstall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/responsive-menu/v4.0.0/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/acf-groups.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/acf-related.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/pixlayout/img/no.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/pixlayout/pixlayout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/pixlayout/pixlayout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/inc/plugin-options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/languages/wp-pixel-perfect-en_EN.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/languages/wp-pixel-perfect-en_EN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/languages/wp-pixel-perfect-ru_RU.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/languages/wp-pixel-perfect-ru_RU.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-pixel-perfect-master/wp-pixel-perfect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/inc/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/template-parts/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/template-parts/content-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +289,10 @@
       <workItem from="1661171770936" duration="17499000" />
       <workItem from="1661209529237" duration="508000" />
       <workItem from="1661450910338" duration="5171000" />
+      <workItem from="1661633082710" duration="1591000" />
+      <workItem from="1661690060241" duration="6552000" />
+      <workItem from="1661701292667" duration="345000" />
+      <workItem from="1661860976161" duration="5556000" />
     </task>
     <servers />
   </component>
