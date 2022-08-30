@@ -11,7 +11,7 @@
             <div class="single-member-container">
                 <div class="single-member-wrapper">
 
-                    <h1 class="heading">
+                    <h1 class="heading-speakers">
                         <?php the_title(); ?>
                     </h1>
 

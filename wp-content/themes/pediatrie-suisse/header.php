@@ -25,7 +25,6 @@
 <?php wp_body_open(); ?>
 
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'pediatrie-suisse' ); ?></a>
 
 	<header id="masthead" class="site-header">
 
@@ -34,7 +33,7 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a href="http://2320330.rb446748.web.hosting-test.net/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>

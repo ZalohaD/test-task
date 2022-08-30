@@ -40,6 +40,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	margin: 0;
 }
 
+.heading-speakers{
+	font-size: 64px !important;
+	font-weight: 900 !important;
+	color: var(--gray-main);
+}
+
 .site-main{
 	margin: 0 50px 0 50px;
 }
@@ -116,13 +122,22 @@ span.blue-color{
 }
 
 
+.speaker-subheader,.speakers-text{
+	margin: 20px 0 20px 0;
+}
+
 .single-member-container{
 	display: flex;
-	justify-content: space-around
+	justify-content: space-around;
+	margin-top: 100px;
 }
 
 .single-member-wrapper{
 	width: 500px
+}
+
+.sessions-header{
+	margin-top: 20px;
 }
 
 .heading, .archive-title {
