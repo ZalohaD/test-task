@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef85898e-db43-4a1d-bf8b-4ac614ddf6f6" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/members-display/templates/single-speakers_display.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/members-display/templates/single-speakers_display.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/pediatrie-suisse/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +98,7 @@
       <workItem from="1661874816411" duration="232000" />
       <workItem from="1661875071977" duration="62000" />
       <workItem from="1661875177466" duration="146000" />
+      <workItem from="1662320283623" duration="1225000" />
     </task>
     <servers />
   </component>
