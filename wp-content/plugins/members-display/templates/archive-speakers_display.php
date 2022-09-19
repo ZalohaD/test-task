@@ -32,9 +32,10 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-                <script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+            <script>
                     document.addEventListener('DOMContentLoaded', function() {
-                        let $ = jQuery;
+
 
                         $('.speakers-filter-link').click(function () {
                             let link = $(this);
@@ -55,8 +56,6 @@ get_header(); ?>
                         });
                     });
                 </script>
-
-
         </div><!-- #content -->
     </section><!-- #primary -->
 
